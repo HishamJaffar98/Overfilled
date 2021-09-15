@@ -1,0 +1,99 @@
+body {
+  overflow: hidden;
+  background-color: black;
+}
+
+.canvas-container {
+  width: 100%;
+  position: absolute;
+  top: 12%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  top: 2%;
+  left: 40%;
+  color: white;
+  font-size: 46px;
+  font-family: 'ARCADECLASSIC';
+  padding: 0;
+  margin: 0;
+}
+
+.robo-tapper-canvas {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("assets/instructions.png");
+  background-size: cover;
+  min-height: 600px;
+}
+
+.button-container {
+  top: 11%;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+button {
+  display: flex;
+  width: 630px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 26px;
+  font-family: 'ARCADECLASSIC';
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'ARCADECLASSIC';
+    src: local('assets/ARCADECLASSIC.TTF'); /* IE9 Compat Modes */
+    src: url('assets/ARCADECLASSIC.TTF'); /* IE9 Compat Modes */
+    src: local('assets/ARCADECLASSIC.TTF') format('embedded-opentype'), /* IE6-IE8 */
+    local('assets/ARCADECLASSIC.TTF') format('woff2'), /* Super Modern Browsers */
+    local('assets/ARCADECLASSIC.TTF') format('woff'), /* Pretty Modern Browsers */
+    local('assets/ARCADECLASSIC.TTF')  format('truetype'), /* Safari, Android, iOS */
+    local('assets/ARCADECLASSIC.TTF') format('svg'); /* Legacy iOS */
+}
+
+.nav-container {
+  position: absolute;
+  top: 8.5%;
+  left: 0.5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+nav {
+  display: flex;
+  width: 600px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: white;
+  height: 25px;
+}
+
+nav > a {
+  color: white;
+  font-size: 16px;
+  font-family: 'ARCADECLASSIC';
+}
