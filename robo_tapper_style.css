@@ -31,7 +31,7 @@ h1 {
 .robo-tapper-canvas {
   margin-left: auto;
   margin-right: auto;
-  background-image: url("assets/instructions.png");
+  background-image: url("");
   background-size: cover;
   min-height: 600px;
 }
