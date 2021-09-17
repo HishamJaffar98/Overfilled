@@ -15,47 +15,75 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-content: center;
 }
 
 h1 {
-  top: 2%;
-  left: 40%;
   color: white;
   font-size: 46px;
   font-family: 'ARCADECLASSIC';
-  padding: 0;
+  padding: 0 ;
   margin: 0;
 }
 
 .robo-tapper-canvas {
   margin-left: auto;
   margin-right: auto;
-  background-image: url("");
+  background-image: url("assets/.png");
   background-size: cover;
   min-height: 600px;
 }
 
 .button-container {
-  top: 11%;
-  position: absolute;
+  position:relative;
+  width: 94%;
+  height:300px;
+  margin-top:350px;
+  margin-right:100px;
+  }
+
+  button {
+  position:absolute;
+  top:25%;
+  left:40%;
+  padding: 2px 0px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  border:none;
+  outline:none;
+  background: none;
+  color:white;
+  font-family: 'ARCADECLASSIC';
+  }
+
+  #Controls{
+  left:67%;
+  }
+
+  #Quit{
+  top:60%;
+  left:52%;
+  }
+
+/*.button-container {
+  margin: auto;
   width: 100%;
+  height:300px;
+  border: 1px dotted blue;
   display: flex;
   justify-content: center;
-  align-content: center;
 }
 
 button {
   display: flex;
-  width: 630px;
-  height: 50px;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  color: white;
   font-size: 26px;
   font-family: 'ARCADECLASSIC';
-}
+  justify-content: center;
+  padding: 100px 2px;
+  border: 10px dotted green;
+  background-color: blue;
+  color:white;
+}*/
 
 button:hover {
   cursor: pointer;
@@ -72,28 +100,3 @@ button:hover {
     local('assets/ARCADECLASSIC.TTF') format('svg'); /* Legacy iOS */
 }
 
-.nav-container {
-  position: absolute;
-  top: 8.5%;
-  left: 0.5%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-nav {
-  display: flex;
-  width: 600px;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  color: white;
-  height: 25px;
-}
-
-nav > a {
-  color: white;
-  font-size: 16px;
-  font-family: 'ARCADECLASSIC';
-}
