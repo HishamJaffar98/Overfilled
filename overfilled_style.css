@@ -28,7 +28,7 @@ h1 {
 .robo-tapper-canvas {
   margin-left: auto;
   margin-right: auto;
-  background-image: url("assets/.png");
+/*background-image: url("assets/.png");*/
   background-size: cover;
   min-height: 600px;
 }
@@ -52,7 +52,7 @@ h1 {
   border:none;
   outline:none;
   background: none;
-  color:white;
+  color:white ;
   font-family: 'ARCADECLASSIC';
   }
 
@@ -63,6 +63,11 @@ h1 {
   #Quit{
   top:60%;
   left:53.2%;
+  }
+
+  #BackButton{
+    left:77%;
+    top: 90%;
   }
 
 /*.button-container {
