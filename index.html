@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Over-filled</title>
+    <title>Over-fullfilled</title>
     <link rel="stylesheet" href="overfilled_style.css"/>
     <link rel="header icon" type="image/x-icon" href="assets/TempFullRecipes/Cake3.png"/>
     <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
@@ -20,20 +20,27 @@
   <body>
 
     <div class="header-container">
-      <h1>Over-filled</h1>
+      <h1>Over-fullfilled</h1>
     </div>
     <div class="canvas-container">
-      <canvas id="robo-tapper-canvas" class="robo-tapper-canvas" width="960" height="600"></canvas>
+      <canvas id="robo-tapper-canvas" class="robo-tapper-canvas" width="1200" height="750"></canvas>
    	</div>
-   	
- 	<div class="button-container" id="button-container" >
- 		<button id="Start/Restart">Start</button>
- 		<button id="Controls">Controls</button> 
- 		<button id="Quit">Quit</button> 
- 	</div>
 
-  <div class="back-button">
-    <button id ="BackButton">Back</button>
-  </div>
+    <div style="width: 550px; height:300px; position: relative; ">
+      <img alt="" src="assets/CoverPicture.png" id="CoverPicture" style="width: 1090px; height: 160px; position: absolute; left:50%; top: 50%; margin-left: -60px; margin-top: -20px;" />
+    </div>
+    
+    <div class="button-container" id="button-container" >
+      <button id="Start/Restart">Start</button>
+      <button id="Controls">Controls</button> 
+      <button id="Quit">Quit</button> 
+    </div>
+
+    <div class="back-button">
+      <button id ="BackButton">Back</button>
+    </div>
+
   </body>
+
+  
 </html>
