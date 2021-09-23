@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: black;
   font-size: 46px;
   font-family: 'ARCADECLASSIC';
   padding: 0 ;
@@ -34,21 +34,22 @@ h1 {
 }
 
 .button-container {
-  position:relative;
-  width: 94%;
-  height:300px;
-  margin-top:350px;
-  margin-right:100px;
+  margin-left: auto;
+  margin-right: auto;
+  position:absolute;
+  width: 30%;
+  height:1080px;
+  margin-left:1100px;
   }
 
   button {
   position:absolute;
   top:25%;
-  left:40%;
-  padding: 2px 0px;
+  left:50%;
+  padding: 10px 0px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-size: 40px;
+  font-size: 80px;
   border:none;
   outline:none;
   background: none;
@@ -57,12 +58,11 @@ h1 {
   }
 
   #Controls{
-  left:67.5%;
+  top:35%;
   }
 
   #Quit{
-  top:60%;
-  left:53.2%;
+  top:45%;
   }
 
   #BackButton{
